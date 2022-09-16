@@ -1,0 +1,164 @@
+body {
+  background-color: white;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Comforter', cursive;
+  font-size: 90px;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+}
+
+p {
+  color: #40514E;
+  line-height: 2;
+}
+
+hr {
+  border-top: dotted 10px;
+  border-bottom: 0;
+  color: #EAF6F6;
+  width: 10%;
+  margin: 100px auto;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.web {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.middle-conntainer {
+  margin: 100px 0;
+}
+.profile-img {
+  width: 13%;
+}
+
+.profile {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.skills {
+  margin-top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+.chillies {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.computer {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+  /* 这里好好记一下margin */
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container {
+  margin-top: 80px;
+  background-color: #66BFBF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.name-surname {
+  color: #EAF6F6;
+  font-size: 0.75rem; /* fontsize这里 */
+  padding: 20px 0;
+}
+
+a {
+  color: #11999E;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px 20px; /* 这里看一下！怎么让三个元素更分散的简单方法 而不是用absolute和relative */
+}
+
+a:hover {
+  color: #EAF6F6;
+}
